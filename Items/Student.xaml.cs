@@ -24,6 +24,7 @@ namespace pr52savichev.Items
     {
         public Student(StudentContext student, Main main)
         {
+
             InitializeComponent();
 
             TBFio.Text = $"{student.Lastname} {student.Firstname}";
